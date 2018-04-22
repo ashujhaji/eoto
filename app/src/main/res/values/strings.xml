@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Eoto</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="category_array">
+        <item>Computer</item>
+        <item>Art of Living</item>
+        <item>Life science</item>
+        <item>Cooking</item>
+        <item>Mathematics</item>
+        <item>Literature</item>
+        <item>Management</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

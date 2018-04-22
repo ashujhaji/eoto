@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_margin="8dp"
+    android:elevation="10dp"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="Ashu Jha"
+                android:id="@+id/username"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#e2e2e2"></RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24-08-15 20:18"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:id="@+id/ques_date"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Java"
+                android:id="@+id/ques_category"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oops concept of java"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/tHead"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tBody"
+                android:text="Can anyone explain me the exact definition of oops in java?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answers"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="viewEnd"
+                android:id="@+id/viewAns"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="1dp"
+            android:background="#e2e2e2">
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp">
+                <RelativeLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:id="@+id/bookmark">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/bookmark"/>
+                </RelativeLayout>
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/round_corner"
+                    android:layout_alignParentRight="true"
+                    android:text="Answer It"
+                    android:id="@+id/ans_it"
+                    android:textColor="#fff"
+                    android:textSize="12dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
